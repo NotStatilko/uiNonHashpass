@@ -10,3 +10,8 @@ cd uiNonHashpass; pip3 install pyqt5
 pyinstaller NonHashpass.py --onefile --noconsole
 ```
 Executable will be in `dist` folder.
+
+#### **WARNING**: All exit-keys will be 32byte (64hex) length. 
+To expand, you can use original NonHashpass module.
+
+![uiNonHashpass Preview](preview.png)
