@@ -1,5 +1,7 @@
 # uiNonHashpass
 
+##### **Before any usage please read [this README](https://github.com/NotStatilko/NonHashpass/blob/main/README.md).**
+
 It's a UI Version of [**NonHashpass**](https://github.com/NotStatilko/NonHashpass).
 
 You can make executable by yourself by running **this commands**:
