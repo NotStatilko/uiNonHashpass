@@ -20,14 +20,18 @@ class Ui_mainWindow(object):
         self.centralwidget.setObjectName("centralwidget")
         self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit.setGeometry(QtCore.QRect(20, 130, 311, 25))
+        self.lineEdit.setStyleSheet("selection-background-color: rgb(24, 24, 24);")
         self.lineEdit.setText("")
         self.lineEdit.setObjectName("lineEdit")
         self.lineEdit_2 = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit_2.setGeometry(QtCore.QRect(20, 210, 311, 25))
+        self.lineEdit_2.setStyleSheet("selection-background-color: rgb(24, 24, 24);")
         self.lineEdit_2.setText("")
         self.lineEdit_2.setObjectName("lineEdit_2")
         self.lineEdit_3 = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit_3.setGeometry(QtCore.QRect(20, 290, 311, 25))
+        self.lineEdit_3.setCursor(QtGui.QCursor(QtCore.Qt.IBeamCursor))
+        self.lineEdit_3.setStyleSheet("selection-background-color: rgb(24, 24, 24);")
         self.lineEdit_3.setText("")
         self.lineEdit_3.setFrame(True)
         self.lineEdit_3.setObjectName("lineEdit_3")
@@ -54,6 +58,7 @@ class Ui_mainWindow(object):
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(20, 370, 311, 25))
         self.pushButton.setStyleSheet("color: rgb(255, 255, 255);\n"
+"selection-background-color: rgb(24, 24, 24);\n"
 "background-color: rgb(17, 16, 16);")
         self.pushButton.setAutoDefault(False)
         self.pushButton.setObjectName("pushButton")
@@ -72,6 +77,7 @@ class Ui_mainWindow(object):
         self.label_7.setObjectName("label_7")
         self.lineEdit_4 = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit_4.setGeometry(QtCore.QRect(20, 370, 311, 25))
+        self.lineEdit_4.setStyleSheet("selection-background-color: rgb(24, 24, 24);")
         self.lineEdit_4.setText("")
         self.lineEdit_4.setReadOnly(True)
         self.lineEdit_4.setObjectName("lineEdit_4")
@@ -95,13 +101,15 @@ class Ui_mainWindow(object):
         self.pushButton_2.setGeometry(QtCore.QRect(170, 340, 161, 25))
         self.pushButton_2.setStyleSheet("background-color: rgb(17, 16, 16);\n"
 "border-top-color: rgb(238, 238, 236);\n"
-"color: rgb(238, 238, 236);")
+"color: rgb(238, 238, 236);\n"
+"selection-background-color: rgb(24, 24, 24);")
         self.pushButton_2.setObjectName("pushButton_2")
         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_3.setGeometry(QtCore.QRect(170, 340, 161, 25))
         self.pushButton_3.setStyleSheet("background-color: rgb(17, 16, 16);\n"
 "border-top-color: rgb(238, 238, 236);\n"
-"color: rgb(238, 238, 236);")
+"color: rgb(238, 238, 236);\n"
+"selection-background-color: rgb(24, 24, 24);")
         self.pushButton_3.setObjectName("pushButton_3")
         mainWindow.setCentralWidget(self.centralwidget)
 

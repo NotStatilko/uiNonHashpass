@@ -35,6 +35,9 @@
       <height>25</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">selection-background-color: rgb(24, 24, 24);</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -48,6 +51,9 @@
       <height>25</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">selection-background-color: rgb(24, 24, 24);</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -60,6 +66,12 @@
       <width>311</width>
       <height>25</height>
      </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>IBeamCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">selection-background-color: rgb(24, 24, 24);</string>
     </property>
     <property name="text">
      <string/>
@@ -159,6 +171,7 @@
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(255, 255, 255);
+selection-background-color: rgb(24, 24, 24);
 background-color: rgb(17, 16, 16);</string>
     </property>
     <property name="text">
@@ -224,6 +237,9 @@ background-color: rgb(17, 16, 16);</string>
       <width>311</width>
       <height>25</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">selection-background-color: rgb(24, 24, 24);</string>
     </property>
     <property name="text">
      <string/>
@@ -311,7 +327,8 @@ background-color: rgb(17, 16, 16);</string>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(17, 16, 16);
 border-top-color: rgb(238, 238, 236);
-color: rgb(238, 238, 236);</string>
+color: rgb(238, 238, 236);
+selection-background-color: rgb(24, 24, 24);</string>
     </property>
     <property name="text">
      <string>Generate another</string>
@@ -332,7 +349,8 @@ color: rgb(238, 238, 236);</string>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(17, 16, 16);
 border-top-color: rgb(238, 238, 236);
-color: rgb(238, 238, 236);</string>
+color: rgb(238, 238, 236);
+selection-background-color: rgb(24, 24, 24);</string>
     </property>
     <property name="text">
      <string>Stop</string>
