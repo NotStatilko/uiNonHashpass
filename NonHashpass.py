@@ -3,7 +3,7 @@ from nonhashpass import Ui_mainWindow
 from multiprocessing import Queue, Process
 from moduleNonHashpass import hashpass
 from sys import exit as sys_exit
-from time import time, sleep
+from time import time
 
 class nonhashpass(QtWidgets.QMainWindow):
     def __init__(self):
