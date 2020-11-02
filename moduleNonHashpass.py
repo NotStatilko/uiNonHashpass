@@ -23,7 +23,7 @@ def hashpass(phrase: str, unique_word: str, iterations: int, queue=None) -> shak
 
         iterations (int): Number of iterations over hash functions. You can set this as
             a constant number or change it for every service. Anyway i STRONGLY
-            suggest you choose a big number (starting from 1,000,000) to
+            suggest you choose a big number (starting from 10,000,000) to
             fully protect you from bruteforcing. The larger this value, the longer 
             it will take to generate the password and the stronger the protection.  
             Don't choose too obvious for attacker numbers.
