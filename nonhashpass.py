@@ -13,9 +13,9 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_mainWindow(object):
     def setupUi(self, mainWindow):
         mainWindow.setObjectName("mainWindow")
-        mainWindow.resize(360, 426)
-        mainWindow.setMinimumSize(QtCore.QSize(360, 426))
-        mainWindow.setMaximumSize(QtCore.QSize(360, 426))
+        mainWindow.resize(351, 426)
+        mainWindow.setMinimumSize(QtCore.QSize(351, 426))
+        mainWindow.setMaximumSize(QtCore.QSize(351, 426))
         self.centralwidget = QtWidgets.QWidget(mainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
