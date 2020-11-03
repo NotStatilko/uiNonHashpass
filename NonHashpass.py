@@ -63,6 +63,9 @@ class nonhashpass(QtWidgets.QMainWindow):
         for k,v in self.ledits.items():
             if not v.text():
                 k.show(); check_var = False
+        
+        if not tuple(self.ledits.values())[2].text().isnumeric():
+            check_var = False
 
         if not check_var:
             self.all_is_valid = False
